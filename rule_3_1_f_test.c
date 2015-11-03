@@ -27,6 +27,7 @@ a = flag ? 1 : 2 ? 2 : 3; // OK
 
 a = flag ? 1 :2 ?2 : 3;  // Error
 
+a = flag                   ?                     1            :                3           ;  // Error
 
 a = flag ? flag ? 10 : 20 ? 3 : 5 : 9; // OK
 
