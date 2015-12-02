@@ -1,19 +1,19 @@
 # Rules
 - 1.5.a (-)
-- 1.7.b (Thạch)
-- 1.7.c (Thạch)
-- 1.7.d (Thạch)
-- 3.1.f (Khoa)
-- 3.3.a
-- 4.2.a
-- 4.2.b
-- 4.3.d (Khoa)
-- 5.4.a,
-- 5.4.b.ii
-- 6.1.c (Khoa)
+- 1.7.b (Thạch - Done)
+- 1.7.c (Thạch - Done)
+- 1.7.d (Thạch - Done)
+- 3.1.f (Khoa - Done)
+- 3.3.a (Khoa)
+- 4.2.a (Khoa)
+- 4.2.b (Thạch)
+- 4.3.d (Khoa - Done)
+- 5.4.a (Thạch)
+- 5.4.b.ii (Thạch)
+- 6.1.c (Khoa - Done)
 - 7.1.i (-)
-- 7.1.j
-- 7.1.l
-- 8.2.a
-- 8.2.b
-- 8.2.d
+- 7.1.j (Thạch)
+- 7.1.l (Thạch)
+- 8.2.a (Khoa)
+- 8.2.b (Khoa)
+- 8.2.d (Khoa)
