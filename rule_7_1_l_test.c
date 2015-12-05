@@ -1,6 +1,6 @@
 void main() {
 	float**pp_x;
-	float**gpp_x;
+    float**gpp_x;
 	float**x;
 	float**gx;
 	float**p_x;

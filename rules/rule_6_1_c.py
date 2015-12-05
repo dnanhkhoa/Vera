@@ -3,13 +3,13 @@ import re
 comment_regex = re.compile(r'\/\/[^\n]*|\/\*((?!\*\/).)+\*\/', re.IGNORECASE | re.DOTALL)
 string_regex = re.compile(r'\"[^"]*\"', re.IGNORECASE | re.DOTALL)
 rule_regex = re.compile(r'_[A-z0-9_]+\s*\([^\)]*\)', re.IGNORECASE | re.DOTALL)
-line_number_regex = re.compile(r'(\d+)', re.IGNORECASE | re.DOTALL)
+line_number_regex = re.compile(r'^(\d+)@', re.IGNORECASE | re.DOTALL)
 
 for file_name in vera.getSourceFileNames():
 	line_number = 1
 	source_code = ''
 	for line in vera.getAllLines(file_name):
-		source_code += '%d.%s\n' % (line_number, line)
+		source_code += '%d@%s\n' % (line_number, line)
 		line_number += 1
 
 	# Remove comments

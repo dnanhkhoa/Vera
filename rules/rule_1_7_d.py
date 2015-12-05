@@ -1,17 +1,3 @@
-import re
-
-pattern = re.compile(r'\bcontinue;')
-for filename in vera.getSourceFileNames():
-	file = open(filename, 'rb')
-	lineCounter = 1
-	lines = file.readlines()
-	
-	for line in lines:
-		matcher = pattern.search(line)
-		
-		if matcher is not None:
-			vera.report(filename, lineCounter, ': Error 1_7_b')
-
-		lineCounter = lineCounter + 1
-
-	file.close()
+for file_name in vera.getSourceFileNames():
+    for token in vera.getTokens(file_name, 1, 0, -1, -1, ['continue']):
+        vera.report(file_name, token.line, "Error 1.7.d")

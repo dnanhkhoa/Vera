@@ -3,9 +3,14 @@
 // continue;
 
 void main() {
-	continue; continue;
+	for () {
+	    continue;
+	}
+	while () {
+	    continue;
+    }
 
+    while () {
+    }
 	int continuea;
-
-	continue;
 }
